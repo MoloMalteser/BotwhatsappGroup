@@ -52,7 +52,7 @@ const client = new Client({
     })
 });
 
-client.on("qr", qr => qrcode.generate(qr, { small: true }));
+client.on("qr", qr => qrcode.generate(qr, { small: false }));
 client.on("ready", () => console.log("✅ Bot ist online!"));
 
 // Nachrichten Empfangen
