@@ -2,7 +2,7 @@ import pkg from 'whatsapp-web.js';
 import qrcode from "qrcode-terminal";
 import fetch from "node-fetch";
 
-// Hugging Face API
+// Hugging Face API.
 const { Client, LocalAuth } = pkg;
 const HF_TOKEN = process.env.HF_TOKEN;
 const HF_MODEL = "mistralai/Mistral-7B-Instruct-v0.2";
